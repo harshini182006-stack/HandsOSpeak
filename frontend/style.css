@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f0ff;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #6842a6;
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 30px;
+}
+
+.camera-section,
+.output-section {
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 700px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #6842a6;
+}
+
+.camera-box {
+    background-color: #e8e1f5;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #6842a6;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4e2d85;
+}
+
+#output {
+    background-color: #f4f0ff;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 60px;
+}
